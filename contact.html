@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us – J&J Lock and Key | Request Service</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="strip"><p>🔑 Emergency Locksmith — <a href="tel:+17144064426">Call (714) 406-4426</a></p></div>
+<nav class="nav">
+  <div class="wrap">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock</a>
+      <a href="tel:+17144064426" class="nav__phone-mobile">📞 (714) 406-4426</a>
+      <a href="tel:+17144064426" class="nav__phone-desktop">(714) 406-4426</a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="nav__cta active">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav__scrim" id="scrim"></div>
+<div class="nav__drawer" id="drawer">
+  <div class="nav__drawer-top">
+    <div class="nav__drawer-logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock</div>
+    <button class="nav__drawer-close" id="drawerClose">✕</button>
+  </div>
+  <div class="nav__drawer-phone">
+    <span style="font-size:22px;">📞</span>
+    <div><a href="tel:+17144064426">(714) 406-4426</a><p>Call or text anytime — 24/7</p></div>
+  </div>
+  <nav class="nav__drawer-links">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👤 About Us</a>
+    <a href="services.html">🔧 Services</a>
+    <a href="contact.html" class="active">✉️ Contact</a>
+  </nav>
+  <a href="contact.html" class="nav__drawer-cta">Get a Free Estimate →</a>
+  <div class="nav__drawer-bottom">
+    <p>J&amp;J Lock and Key<br>Riverside County, CA<br>Licensed · Insured · Available 24/7</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),c=document.getElementById('drawerClose');
+  function open(){b.classList.add('open');d.classList.add('open');s.classList.add('open');document.body.style.overflow='hidden';}
+  function shut(){b.classList.remove('open');d.classList.remove('open');s.classList.remove('open');document.body.style.overflow='';}
+  b.addEventListener('click',open);c.addEventListener('click',shut);s.addEventListener('click',shut);
+  d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',shut);});
+})();
+</script>
+
+<div class="nav__scrim" id="scrim"></div>
+<div class="nav__drawer" id="drawer">
+  <div class="nav__drawer-top">
+    <div class="nav__drawer-logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock</div>
+    <button class="nav__drawer-close" id="drawerClose">✕</button>
+  </div>
+  <div class="nav__drawer-phone">
+    <span style="font-size:22px;">📞</span>
+    <div><a href="tel:+17144064426">(714) 406-4426</a><p>Call or text anytime — 24/7</p></div>
+  </div>
+  <nav class="nav__drawer-links">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👤 About Us</a>
+    <a href="services.html">🔧 Services</a>
+    <a href="contact.html" class="active">✉️ Contact</a>
+  </nav>
+  <a href="contact.html" class="nav__drawer-cta">Get a Free Estimate →</a>
+  <div class="nav__drawer-bottom">
+    <p>J&amp;J Lock and Key<br>Riverside County, CA<br>Licensed · Insured · Available 24/7</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var burger=document.getElementById('burger');
+  var drawer=document.getElementById('drawer');
+  var scrim=document.getElementById('scrim');
+  var close=document.getElementById('drawerClose');
+  function open(){burger.classList.add('open');drawer.classList.add('open');scrim.classList.add('open');document.body.style.overflow='hidden';}
+  function shut(){burger.classList.remove('open');drawer.classList.remove('open');scrim.classList.remove('open');document.body.style.overflow='';}
+  burger.addEventListener('click',open);
+  close.addEventListener('click',shut);
+  scrim.addEventListener('click',shut);
+  drawer.querySelectorAll('a').forEach(function(a){a.addEventListener('click',shut);});
+})();
+</script><script>
+function handleSubmit(e){
+  e.preventDefault();
+  const btn = e.target.querySelector('button');
+  const orig = btn.textContent;
+  btn.textContent = '✅ Message Sent!';
+  btn.style.background = '#2d6a4f';
+  btn.style.color = '#fff';
+  setTimeout(()=>{btn.textContent=orig;btn.style.background='';btn.style.color='';e.target.reset();},3000);
+}
+</script>
+
+<div class="pg-hero">
+  <div class="pg-hero__bg" style="background-image:url('joelimage5.jpg');"></div>
+  <div class="pg-hero__overlay"></div>
+  <div class="wrap pg-hero__body">
+    <div class="pg-hero__label">Reach Out</div>
+    <h1 class="d2" style="margin-bottom:10px;">Contact <span class="gold">J&amp;J</span><br>Lock and Key</h1>
+    <div class="line"></div>
+    <p style="font-size:14px;font-weight:300;color:#bbb;line-height:1.7;max-width:480px;">Need a locksmith? Want a free estimate? We're here — day or night.</p>
+  </div>
+</div>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <span class="label" style="display:block;margin-bottom:8px;">Get In Touch</span>
+        <h2 class="d3" style="margin-bottom:10px;">We're Here <span class="gold">For You</span></h2>
+        <div class="line"></div>
+        <p style="font-size:14px;font-weight:300;color:#bbb;line-height:1.75;margin-bottom:22px;">Whether it's an emergency at 2am or a scheduled re-key — give us a call or fill out the form.</p>
+        <div class="contact-cards">
+          <div class="cc"><div class="cc__icon">📞</div><div><span class="cc__label">Phone</span><div class="cc__val"><a href="tel:+17144064426">(714) 406-4426</a><br><a href="tel:+17147732135">(714) 773-2135</a></div><span class="cc__note">Call or text anytime</span></div></div>
+          <div class="cc"><div class="cc__icon">✉️</div><div><span class="cc__label">Email</span><div class="cc__val"><a href="mailto:info@jjlockandkey.com">info@jjlockandkey.com</a></div><span class="cc__note">We typically respond within a few hours</span></div></div>
+          <div class="cc"><div class="cc__icon">📍</div><div><span class="cc__label">Service Area</span><div class="cc__val">Riverside County, CA</div><span class="cc__note">Corona, Riverside, Temecula &amp; surrounding cities</span></div></div>
+        </div>
+        <div class="hours">
+          <span class="hours__head">Hours of Operation</span>
+          <div class="hours__row"><span>Monday – Friday</span><span>7:00 AM – 8:00 PM</span></div>
+          <div class="hours__row"><span>Saturday</span><span>8:00 AM – 6:00 PM</span></div>
+          <div class="hours__row"><span>Sunday</span><span>9:00 AM – 5:00 PM</span></div>
+        </div>
+      </div>
+      <div class="cf">
+        <h3>Request <span class="gold">Service</span></h3>
+        <p class="cf__sub">Fill out the form and we'll confirm your appointment or estimate.</p>
+        <form onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="fg"><label>First Name</label><input type="text" placeholder="John" required></div>
+            <div class="fg"><label>Last Name</label><input type="text" placeholder="Doe" required></div>
+          </div>
+          <div class="form-row">
+            <div class="fg"><label>Phone</label><input type="tel" placeholder="(714) 000-0000" required></div>
+            <div class="fg"><label>Email</label><input type="email" placeholder="john@email.com"></div>
+          </div>
+          <div class="fg"><label>Service Type</label>
+            <select required>
+              <option value="" disabled selected>Select a service...</option>
+              <option>Residential – Lock Installation</option>
+              <option>Residential – Re-Keying</option>
+              <option>Residential – Emergency Lockout</option>
+              <option>Residential – Smart Lock Setup</option>
+              <option>Commercial – Business Re-Keying</option>
+              <option>Commercial – Access Control</option>
+              <option>Commercial – Emergency</option>
+              <option>Automotive – Car Lockout</option>
+              <option>Automotive – Key Programming</option>
+              <option>Automotive – Key Cutting</option>
+              <option>Emergency – Other</option>
+            </select>
+          </div>
+          <div class="fg"><label>City / Location</label><input type="text" placeholder="Corona, CA"></div>
+          <div class="fg"><label>Tell Us More</label><textarea placeholder="Describe your situation..."></textarea></div>
+          <button type="submit" class="btn btn--gold btn--full">Send My Request →</button>
+          <p class="fn">🔒 Your info is private and never shared.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="map-box">
+  <span class="map-box__icon">📍</span>
+  <p class="map-box__sub">Serving Riverside County &amp; Surrounding Areas</p>
+  <a href="https://www.google.com/maps/search/Riverside+County+CA" target="_blank">View on Google Maps →</a>
+</div>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="center">
+      <span class="label" style="display:block;margin-bottom:8px;">Common Questions</span>
+      <h2 class="d3" style="margin-bottom:4px;">Frequently <span class="gold">Asked</span></h2>
+      <div class="line line--c"></div>
+    </div>
+    <div class="faq-grid">
+      <div class="faq"><div class="faq__q">How fast can you respond to an emergency?</div><p class="faq__a">We aim to reach you within 30–60 minutes. Call us and we'll give you an estimated arrival time.</p></div>
+      <div class="faq"><div class="faq__q">Do you charge extra for after-hours service?</div><p class="faq__a">After-hours calls may have an additional fee. We'll always tell you the total cost before we begin.</p></div>
+      <div class="faq"><div class="faq__q">Can you program keys for any car?</div><p class="faq__a">We work on virtually all makes and models, domestic and foreign, with advanced programming equipment.</p></div>
+      <div class="faq"><div class="faq__q">Re-keying vs. replacing a lock?</div><p class="faq__a">Re-keying changes internal pins so old keys no longer work — more affordable. Replacing installs new hardware, better if worn or damaged.</p></div>
+      <div class="faq"><div class="faq__q">Are you licensed and insured?</div><p class="faq__a">Yes. Fully licensed, insured, and screened and approved on HomeAdvisor.</p></div>
+      <div class="faq"><div class="faq__q">Do you offer free estimates?</div><p class="faq__a">Absolutely. Call or fill out the form. No obligation, no pressure.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="areas">
+  <div class="wrap">
+    <span class="label" style="display:block;margin-bottom:8px;">Service Coverage</span>
+    <h2 class="d3" style="margin-bottom:8px;">We Come To <span class="gold">You</span></h2>
+    <p style="font-size:13px;color:#888;margin-bottom:18px;">Proudly serving Riverside County and beyond.</p>
+    <div class="tags">
+      <span class="tag-pill">Riverside, CA</span><span class="tag-pill">Corona, CA</span>
+      <span class="tag-pill">Temescal Valley</span><span class="tag-pill">Eastvale, CA</span>
+      <span class="tag-pill">Lake Elsinore</span><span class="tag-pill">Wildomar, CA</span>
+      <span class="tag-pill">Murrieta, CA</span><span class="tag-pill">Menifee, CA</span>
+      <span class="tag-pill">Temecula, CA</span><span class="tag-pill">+ More Areas</span>
+    </div>
+  </div>
+</section>
+
+<script>
+function handleSubmit(e){
+  e.preventDefault();
+  var btn=e.target.querySelector('button');
+  var orig=btn.textContent;
+  btn.textContent='✅ Message Sent!';
+  btn.style.background='#2d6a4f';
+  btn.style.color='#fff';
+  setTimeout(function(){btn.textContent=orig;btn.style.background='';btn.style.color='';e.target.reset();},3000);
+}
+</script>
+
+<footer class="footer"><div class="wrap">
+  <div class="footer__grid">
+    <div><a href="index.html" class="footer__logo"><div class="footer__logo-mark">🔐</div>J<span>&amp;</span>J Lock and Key</a>
+      <p>Professional locksmith services across Southern California. Licensed, insured, available Mon-Sun.</p></div>
+    <div><span class="footer__head">Pages</span><ul class="footer__list">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div><span class="footer__head">Contact</span><ul class="footer__list">
+      <li><a href="tel:+17144064426">(714) 406-4426</a></li>
+      <li><a href="tel:+17147732135">(714) 773-2135</a></li>
+      <li><a href="/cdn-cgi/l/email-protection#a5cccbc3cae5cfcfc9cac6cec4cbc1cec0dc8bc6cac8"><span class="__cf_email__" data-cfemail="6f060109002f050503000c040e010b040a16410c0002">[email&#160;protected]</span></a></li>
+      <li><span>Rive

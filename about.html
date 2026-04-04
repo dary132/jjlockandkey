@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us – J&J Lock and Key</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="strip"><p>🔑 Emergency Locksmith — <a href="tel:+17144064426">Call (714) 406-4426</a></p></div>
+<nav class="nav">
+  <div class="wrap">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock</a>
+      <a href="tel:+17144064426" class="nav__phone-mobile">📞 (714) 406-4426</a>
+      <a href="tel:+17144064426" class="nav__phone-desktop">(714) 406-4426</a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav__scrim" id="scrim"></div>
+<div class="nav__drawer" id="drawer">
+  <div class="nav__drawer-top">
+    <div class="nav__drawer-logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock</div>
+    <button class="nav__drawer-close" id="drawerClose">✕</button>
+  </div>
+  <div class="nav__drawer-phone">
+    <span style="font-size:22px;">📞</span>
+    <div><a href="tel:+17144064426">(714) 406-4426</a><p>Call or text anytime</p></div>
+  </div>
+  <nav class="nav__drawer-links">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html" class="active">👤 About Us</a>
+    <a href="services.html">🔧 Services</a>
+    <a href="contact.html">✉️ Contact</a>
+  </nav>
+  <a href="contact.html" class="nav__drawer-cta">Get a Free Estimate →</a>
+  <div class="nav__drawer-bottom">
+    <p>J&amp;J Lock and Key<br>Riverside County, CA<br>Licensed · Insured · Home Advisor Approved</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),c=document.getElementById('drawerClose');
+  function open(){b.classList.add('open');d.classList.add('open');s.classList.add('open');document.body.style.overflow='hidden';}
+  function shut(){b.classList.remove('open');d.classList.remove('open');s.classList.remove('open');document.body.style.overflow='';}
+  b.addEventListener('click',open);c.addEventListener('click',shut);s.addEventListener('click',shut);
+  d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',shut);});
+})();
+</script>
+
+<div class="pg-hero">
+  <div class="pg-hero__bg" style="background-image:url('joelimage4.jpg');"></div>
+  <div class="pg-hero__overlay"></div>
+  <div class="wrap pg-hero__body">
+    <div class="pg-hero__label">Who We Are</div>
+    <h1 class="d2" style="margin-bottom:10px;">About <span class="gold">J&amp;J</span><br>Lock and Key</h1>
+    <div class="line"></div>
+    <p style="font-size:14px;font-weight:300;color:#bbb;line-height:1.7;max-width:480px;">A family-owned locksmith company built on trust, expertise, and a commitment to keeping Southern California safe.</p>
+  </div>
+</div>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="meet-grid">
+      <div class="meet-photos">
+        <img src="joelimage6.jpg" alt="Joel at work">
+        <img src="commerce.jpg" alt="Commercial locksmith">
+      </div>
+      <div>
+        <span class="label" style="display:block;margin-bottom:8px;">The Team</span>
+        <h2 class="d3" style="margin-bottom:4px;">Meet <span class="gold">Joel</span></h2>
+        <p style="font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:16px;">Founder &amp; Master Locksmith</p>
+        <div class="line"></div>
+        <p style="font-size:14px;font-weight:300;line-height:1.75;color:#bbb;margin-bottom:12px;">Joel founded J&amp;J Lock and Key with one mission: to provide Southern California with locksmith services they can actually count on. With years of hands-on experience across residential, commercial, and automotive work, Joel brings both expertise and a personal touch to every job.</p>
+        <p style="font-size:14px;font-weight:300;line-height:1.75;color:#bbb;margin-bottom:12px;">He's constantly training on new technology — from smart lock integration to advanced key programming — ensuring J&amp;J always delivers cutting-edge solutions.</p>
+        <p style="font-size:14px;font-weight:300;line-height:1.75;color:#bbb;margin-bottom:22px;">Screened and approved on HomeAdvisor, Joel takes his reputation seriously because it was built one satisfied customer at a time.</p>
+        <div style="display:flex;gap:0;border:1px solid #2a2a2a;margin-bottom:22px;max-width:320px;">
+          <div style="flex:1;padding:14px 10px;text-align:center;border-right:1px solid #2a2a2a;"><div style="font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--gold);line-height:1;">10+</div><div style="font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-top:2px;">Years</div></div>
+          <div style="flex:1;padding:14px 10px;text-align:center;border-right:1px solid #2a2a2a;"><div style="font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--gold);line-height:1;">500+</div><div style="font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-top:2px;">Jobs</div></div>
+          <div style="flex:1;padding:14px 10px;text-align:center;"><div style="font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--gold);line-height:1;">Mon-Sun</div><div style="font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-top:2px;">Available</div></div>
+        </div>
+        <a href="contact.html" class="btn btn--gold">Work With Us →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--card">
+  <div class="wrap">
+    <div class="center">
+      <span class="label" style="display:block;margin-bottom:8px;">Our Core Values</span>
+      <h2 class="d3" style="margin-bottom:4px;">What Drives <span class="gold">Everything</span></h2>
+      <div class="line line--c"></div>
+    </div>
+    <div class="vals-grid">
+      <div class="val"><span class="val__icon">🛡️</span><div class="val__title">Integrity First</div><p class="val__body">Honest pricing every time. We tell you what you need — not what costs more.</p><div class="val__n">01</div></div>
+      <div class="val"><span class="val__icon">⚡</span><div class="val__title">Rapid Response</div><p class="val__body">Emergencies don't wait, and neither do we. We reach you as fast as possible.</p><div class="val__n">02</div></div>
+      <div class="val"><span class="val__icon">🔬</span><div class="val__title">Precision Craft</div><p class="val__body">Every job done with care. We take pride in doing it right the first time.</p><div class="val__n">03</div></div>
+      <div class="val"><span class="val__icon">🤝</span><div class="val__title">Community Roots</div><p class="val__body">We live here too. Invested in the safety of our community, not just the job.</p><div class="val__n">04</div></div>
+      <div class="val"><span class="val__icon">📱</span><div class="val__title">Always Current</div><p class="val__body">Latest lock technology so we can offer you smart, future-proof solutions.</p><div class="val__n">05</div></div>
+      <div class="val"><span class="val__icon">✅</span><div class="val__title">Guaranteed Work</div><p class="val__body">We stand behind everything we do. If something isn't right, we make it right.</p><div class="val__n">06</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="certs" style="padding:36px 20px;">
+  <div class="cert"><span class="cert__icon">🏅</span><div class="cert__label">HomeAdvisor Screened</div></div>
+  <div class="cert"><span class="cert__icon">🔐</span><div class="cert__label">Licensed Locksmith</div></div>
+  <div class="cert"><span class="cert__icon">🛡️</span><div class="cert__label">Fully Insured</div></div>
+  <div class="cert"><span class="cert__icon">⭐</span><div class="cert__label">5-Star Rated</div></div>
+  <div class="cert"><span class="cert__icon">📍</span><div class="cert__label">Southern California</div></div>
+</div>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="center">
+      <span class="label" style="display:block;margin-bottom:8px;">Why Choose Us</span>
+      <h2 class="d3" style="margin-bottom:4px;">The J&amp;J <span class="gold">Difference</span></h2>
+      <div class="line line--c"></div>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-card__n">01</div><span class="why-card__icon">⚡</span><div class="why-card__title">Fast Response</div><p class="why-card__body">Rapid response team available any time across Southern California.</p></div>
+      <div class="why-card"><div class="why-card__n">02</div><span class="why-card__icon">🔧</span><div class="why-card__title">Expert Technicians</div><p class="why-card__body">Trained, licensed, and equipped with the latest tools.</p></div>
+      <div class="why-card"><div class="why-card__n">03</div><span class="why-card__icon">💰</span><div class="why-card__title">Honest Pricing</div><p class="why-card__body">Upfront estimates before work begins. No hidden fees.</p></div>
+    </div>
+  </div>
+</section>
+<footer class="footer"><div class="wrap">
+  <div class="footer__grid">
+    <div><a href="index.html" class="footer__logo"><div class="footer__logo-mark">🔐</div>J<span>&amp;</span>J Lock and Key</a>
+      <p>Professional locksmith services across Southern California. Licensed, insured, available Mon-Sun.</p></div>
+    <div><span class="footer__head">Pages</span><ul class="footer__list">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div><span class="footer__head">Contact</span><ul class="footer__list">
+      <li><a href="tel:+17144064426">(714) 406-4426</a></li>
+      <li><a href="tel:+17147732135">(714) 773-2135</a></li>
+      <li><a href="/cdn-cgi/l/email-protection#50393e363f103a3a3c3f333b313e343b35297e333f3d"><span class="__cf_email__" data-cfemail="8de4e3ebe2cde7e7e1e2eee6ece3e9e6e8f4a3eee2e0">[email&#160;protected]</span></a></li>
+      <li><span>Riverside County, CA</span></li><li><span>Available Mon-Sun</span></li>
+    </ul></div>
+  </div>
+  <div class="footer__bottom">© 2025 J &amp; J Lock and Key · All Rights Reserved.</div>
+</div></footer>
+<div class="phone-bar">
+  <a href="tel:+1714406442
