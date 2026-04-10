@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J&J Lock and Key – Professional Locksmith | Southern California</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="JJLockLogo.png">
+</head>
+<body>
+<div class="strip"><p>🔑 Emergency Locksmith — <a href="tel:+17144064426">Call (714) 406-4426</a></p></div>
+<nav class="nav">
+  <div class="wrap">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock and Key</a>
+      <a href="tel:+17144064426" class="nav__phone-mobile">📞 (714) 406-4426</a>
+      <a href="tel:+17144064426" class="nav__phone-desktop">(714) 406-4426</a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav__scrim" id="scrim"></div>
+<div class="nav__drawer" id="drawer">
+  <div class="nav__drawer-top">
+    <div class="nav__drawer-logo"><div class="nav__logo-mark">🔐</div>J<span>&amp;</span>J Lock and Key</div>
+    <button class="nav__drawer-close" id="drawerClose">✕</button>
+  </div>
+  <div class="nav__drawer-phone">
+    <span style="font-size:22px;">📞</span>
+    <div><a href="tel:+17144064426">(714) 406-4426</a><p>Call or text anytime</p></div>
+  </div>
+  <nav class="nav__drawer-links">
+    <a href="index.html" class="active">🏠 Home</a>
+    <a href="about.html">👤 About Us</a>
+    <a href="services.html">🔧 Services</a>
+    <a href="contact.html">✉️ Contact</a>
+  </nav>
+  <a href="contact.html" class="nav__drawer-cta">Get a Free Estimate →</a>
+  <div class="nav__drawer-bottom">
+    <p>J&amp;J Lock and Key<br>Riverside County, CA<br>Licensed · Insured · Home Advisor Approved</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),c=document.getElementById('drawerClose');
+  function open(){b.classList.add('open');d.classList.add('open');s.classList.add('open');document.body.style.overflow='hidden';}
+  function shut(){b.classList.remove('open');d.classList.remove('open');s.classList.remove('open');document.body.style.overflow='';}
+  b.addEventListener('click',open);c.addEventListener('click',shut);s.addEventListener('click',shut);
+  d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',shut);});
+})();
+</script>
+
+<section class="hero">
+  <video class="hero__video" autoplay muted loop playsinline>
+    <source src="istockphoto-1173517338-640_adpp_is.mp4" type="video/mp4">
+  </video>
+  <div class="hero__overlay"></div>
+  <div class="wrap">
+    <div class="hero__body">
+      <div class="hero__eyebrow a1"><span class="label">Licensed · Insured · Riverside County</span></div>
+      <h1 class="d1 a2">Fast.<br><span class="gold">Reliable.</span><br>Secure.</h1>
+      <p class="hero__sub a3">Expert residential, commercial, and automotive locksmith services across Southern California</p>
+      <div class="hero__actions a4">
+        <a href="tel:+17144064426" class="btn btn--gold">📞 (714) 406-4426</a>
+        <a href="contact.html" class="btn btn--ghost">Free Estimate →</a>
+      </div>
+      
+      <div class="hero__stats a5">
+        <div class="hstat"><div class="hstat__n">10+</div><div class="hstat__l">Years</div></div>
+        <div class="hstat"><div class="hstat__n">500+</div><div class="hstat__l">Jobs Done</div></div>
+        <div class="hstat"><div class="hstat__n">5&#9733;</div><div class="hstat__l">Rated</div></div>
+      </div>
+      <a href="https://www.yelp.com/biz/j-and-j-lock-and-key-corona" target="_blank" rel="noopener" class="yelp-link">
+        <img src="yelplogo.png" alt="Read our reviews on Yelp" class="yelp-logo">
+        <span>Read Our Reviews on Yelp</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="svc-grid">
+  <div class="svc-card"><img src="joelimage7.jpg" alt="Residential">
+    <div class="svc-card__body"><div class="svc-card__icon">🏠</div><div class="svc-card__name">Residential</div><div class="svc-card__tick"></div><div class="svc-card__desc">Locks, re-keying, deadbolts &amp; smart locks.</div><a href="services.html" class="svc-card__link">See Services →</a></div></div>
+  <div class="svc-card"><img src="commercial.jpg" alt="Commercial">
+    <div class="svc-card__body"><div class="svc-card__icon">🏢</div><div class="svc-card__name">Commercial</div><div class="svc-card__tick"></div><div class="svc-card__desc">Master keys, access control &amp; re-keying.</div><a href="services.html" class="svc-card__link">See Services →</a></div></div>
+  <div class="svc-card"><img src="automotive.jpg" alt="Automotive">
+    <div class="svc-card__body"><div class="svc-card__icon">🚗</div><div class="svc-card__name">Automotive</div><div class="svc-card__tick"></div><div class="svc-card__desc">Car lockouts, key cutting &amp; transponders.</div><a href="services.html" class="svc-card__link">See Services →</a></div></div>
+  <div class="svc-card"><img src="alarm.jpg" alt="Emergency">
+    <div class="svc-card__body"><div class="svc-card__icon">🚨</div><div class="svc-card__name">Emergency</div><div class="svc-card__tick"></div><div class="svc-card__desc">Locked out? We respond 24/7.</div><a href="contact.html" class="svc-card__link">Call Now →</a></div></div>
+</div>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="about-row__grid">
+      <img class="about-row__img" src="joelimage5.jpg" alt="Joel at work">
+      <div class="about-row__body">
+        <span class="label" style="display:block;margin-bottom:8px;">About J&amp;J Lock and Key</span>
+        <h2 class="d3" style="margin-bottom:4px;">Your Local <span class="gold">Security</span> Expert</h2>
+        <div class="line"></div>
+        <p>J&amp;J Lock and Key was founded on the belief that every home, business, and vehicle deserves reliable, professional security. We're a family-owned company proudly serving Southern California.</p>
+        <p>From simple re-keys to advanced smart lock systems, we stay ahead of every new technology so you always get the best solution available.</p>
+        <div class="feats">
+          <div class="feat">Licensed &amp; Insured</div><div class="feat">24/7 Emergency</div>
+          <div class="feat">Upfront Pricing</div><div class="feat">Fast Response</div>
+          <div class="feat">All Vehicle Makes</div><div class="feat">Smart Lock Setup</div>
+        </div>
+        <a href="about.html" class="btn btn--gold">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-section__bg" style="background-image:url('keycutter.jpg');"></div>
+  <div class="cta-section__overlay"></div>
+  <div class="wrap"><div class="cta-section__inner">
+    <div class="cta-section__body">
+      <span class="label" style="display:block;margin-bottom:8px;">Schedule Service</span>
+      <h2 class="d3" style="margin-bottom:8px;">Moving? <span class="gold">Re-Key</span> Today.</h2>
+      <p>Enter your name and number and we'll reach out to confirm.</p>
+      <form class="cta-form" onsubmit="return false;" style="margin-top:18px;">
+        <input type="text" placeholder="Your name &amp; phone number">
+        <button type="submit">Send →</button>
+      </form>
+    </div>
+  </div></div>
+</section>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="center">
+      <span class="label" style="display:block;margin-bottom:8px;">Why Choose Us</span>
+      <h2 class="d3" style="margin-bottom:4px;">The J&amp;J <span class="gold">Difference</span></h2>
+      <div class="line line--c"></div>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-card__n">01</div><span class="why-card__icon">⚡</span><div class="why-card__title">Fast Response</div><p class="why-card__body">We get to you quickly — any time, day or night across Southern California.</p></div>
+      <div class="why-card"><div class="why-card__n">02</div><span class="why-card__icon">🔧</span><div class="why-card__title">Expert Technicians</div><p class="why-card__body">Fully trained and licensed with the latest tools for any situation.</p></div>
+      <div class="why-card"><div class="why-card__n">03</div><span class="why-card__icon">💰</span><div class="why-card__title">Honest Pricing</div><p class="why-card__body">No surprises. Upfront estimates before any work begins — always.</p></div>
+      <div class="why-card"><div class="why-card__n">04</div><span class="why-card__icon">🏆</span><div class="why-card__title">Proven Track Record</div><p class="why-card__body">HomeAdvisor screened. Hundreds of satisfied customers across the region.</p></div>
+      <div class="why-card"><div class="why-card__n">05</div><span class="why-card__icon">📱</span><div class="why-card__title">Modern Technology</div><p class="why-card__body">Smart locks, transponder keys, access control — we handle it all.</p></div>
+      <div class="why-card"><div class="why-card__n">06</div><span class="why-card__icon">🤝</span><div class="why-card__title">Family Owned</div><p class="why-card__body">We treat every customer like a neighbor. Your security matters to us.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="areas">
+  <div class="wrap">
+    <span class="label" style="display:block;margin-bottom:8px;">Service Coverage</span>
+    <h2 class="d3" style="margin-bottom:8px;">We Come To <span class="gold">You</span></h2>
+    <p>Proudly serving Riverside County and beyond.</p>
+    <div class="tags" style="margin-top:18px;">
+      <span class="tag-pill">Riverside, CA</span><span class="tag-pill">Corona, CA</span>
+      <span class="tag-pill">Temescal Valley</span><span class="tag-pill">Eastvale, CA</span>
+      <span class="tag-pill">Lake Elsinore</span><span class="tag-pill">Wildomar, CA</span>
+      <span class="tag-pill">Murrieta, CA</span><span class="tag-pill">Menifee, CA</span>
+      <span class="tag-pill">Temecula, CA</span><span class="tag-pill">+ More Areas</span>
+    </div>
+  </div>
+</section>
+<footer class="footer"><div class="wrap">
+  <div class="footer__grid">
+    <div>
+      <a href="index.html" class="footer__logo"><div class="footer__logo-mark">🔐</div>J<span>&amp;</span>J Lock and Key</a>
+      <p>Professional locksmith services across Southern California. Licensed, insured, available Mon-Sun.</p>
+    </div>
+    <div>
+      <span class="footer__head">Pages</span>
+      <ul class="footer__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <span class="footer__head">Contact</span>
+      <ul class="footer__list">
+        <li><a href="tel:+17144064426">(714) 406-4426</a></li>
+        <li><a href="tel:+17147732135">(714) 773-2135</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#432a2d252c0329292f2c2028222d2728263a6d202c2e"><span class="__cf_email__" data-cfemail="620b0c040d2208080e0d0109030c0609071b4c010d0f">[email&#160;protected]</span></a></li>
+        <li><span>Riverside County, CA</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">© 2025 J &amp; J Lock and Key · All Rights Reserved.</div>
+</div></footer>
+<div class="phone-bar">
+  <a href="tel:+1714406442
